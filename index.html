@@ -55,6 +55,9 @@
     <p>
       All illustrations and most sound effects were custom-made, ensuring the design feels unique and cohesive. Even small details, like a custom cursor, were added to make the experience feel more playful and tailored to children’s curiosity. I wanted Tomato Tots to feel fun, simple, and self-explanatory, reflecting the principles of learnability and feedback in interaction design. The flipping animation and sound feedback ensure that children know their action was successful, helping them stay engaged and motivated.
     </p>
+    <video class="demo-video" controls>
+     <source src="vid/finalprototype.mp4" type="video/mp4">
+    </video>
   </div>
 
   <!-- Engagement with Design Context -->
@@ -69,6 +72,9 @@
     <p>
       Peer feedback highlighted strong aesthetics and engagement but noted layout inconsistency on different screens. This led to a redesigned two-column layout (35% buttons / 65% card area), improving functionality and learnability while preserving the playful character of the original.
     </p>
+    <p>
+      To support accessibility further, I introduced a custom cursor system — a friendly tomato-style pointer that changes when hovering over buttons, providing clear visual feedback for interactive areas.
+    </p>
   </div>
 
   <!-- Technical Proficiency -->
@@ -79,12 +85,21 @@
     </p>
     <ul class="contents">
       <li>Buttons: Each alphabet button is a PNG image (buttons/) with an event listener for clicks.</li>
+      <img src="pics/s1.png" alt="s1">
       <li>Card flip: Achieved using CSS 3D transforms and toggling a .flipped class in JS.</li>
+      <img src="pics/s2.png" alt="s2">
       <li>Randomisation: Math.random() selects one of several images and audio clips per letter.</li>
+      <img src="pics/s3.png" alt="s3">
       <li>Audio playback: .wav files (audio/) play instantly upon card reveal.</li>
       <li>Layout: Flexbox divides the screen into a left button grid and a right card zone, ensuring consistent alignment across devices.</li>
       <li>Custom cursor: Replaced the default pointer with a tomato-themed cursor to enhance immersion and match the concept’s playful tone.</li>
+      <img src="pics/s4.png" alt="s4">
+      <li>Credits Popup: A new interactive popup was added to acknowledge external sound sources. The popup is triggered by a small hamburger icon in the top-right corner and lists audio credits from Freesound.org in a clear and ethical way.</li>
+      <img src="pics/s5.png" alt="s5">
     </ul>
+    <p>
+      Most of the illustrations and sound effects were custom-made, while a few sound clips (e.g., for “Apple”, “Ant”, “Book”, “Igloo”, “Ice-cream”) were sourced from licensed community resources and are fully credited within the popup.
+    </p>
     <p>
       This structure is simple yet robust, demonstrating practical application of web-based interaction techniques and responsive design principles.
     </p>
@@ -102,6 +117,10 @@
     <p>
       I redesigned the entire interface to ensure the website functions consistently across devices and screen sizes. Key improvements included enlarging the buttons (to better suit young users’ motor skills), restructuring the layout into two clear sections - buttons on the left and the card area on the right and ensuring the proportions between these elements are balanced and easy to navigate.
     </p>
+    <img src="pics/original.png" alt="original">
+    <p>Original design</p>
+    <img src="pics/new.png" alt="new">
+    <p>Re-design version</p>
     <p>
       The biggest challenge was maintaining aesthetic charm while improving technical stability and responsiveness. I learned to balance artistic style with practical interaction design - something I initially underestimated.
     </p>
