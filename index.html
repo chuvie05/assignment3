@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2: Milestone Presentation</title>
+    <!-- font 1 -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <!-- font 2 -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Side Navigation -->
+  <nav>
+    <h2>Contents</h2>
+    <ul>
+      <li><a href="#conceptualisation">1. Realisation of Concept</a></li>
+      <li><a href="#engagement">2. Engagement with Design Context</a></li>
+      <li><a href="#technical">3. Technical Proficiency</a></li>
+      <li><a href="#reflection">4. Depth of Reflection</a></li>
+    </ul>
+  </nav>
+
+  <!-- Headings -->
+  <div class="heading">
+    <h1>Assignment 3: Final UI</h1>
+    <p>Course name: Specialization 2 - Interface Design and Development</p>
+    <p>Course code: COMM2751</p>
+    <p>Student name: Vo Ngoc Truc Vy</p>
+    <p>Student ID: s4044874</p>
+  </div>
+
+  <!-- Realisation of Concept -->
+  <div id="conceptualisation" class="conceptualisation">
+    <h1>Realisation of Concept</h1>
+    <p>
+      My project, Tomato Tots, is an interactive webpage designed for young children to learn the alphabet through playful interaction. Each letter of the alphabet is represented by a bright, tomato-shaped button. When a button is clicked, the main card on the screen flips to reveal a related image, the corresponding word, and a short audio clip that pronounces the word aloud. Clicking again on the same letter reveals another word beginning with that letter, allowing children to discover multiple examples while staying within the same context.
+    </p>
+    <p>
+      The name “Tomato Tots” was chosen for its playful rhythm and familiarity. It combines two simple, friendly words that children can easily remember and pronounce. The tomato theme ties the interface together visually - the alphabet buttons resemble small red tomatoes, which makes the experience more cohesive and memorable. The friendly and organic theme also creates a warm, everyday environment where learning feels lighthearted rather than instructional.
+    </p>
+    <p>
+      Conceptually, the project focuses on multi-sensory learning by combining visual (letters and images), auditory (pronunciation sounds), and kinesthetic (click interaction) elements. This allows children to connect sounds with letters and words in an intuitive way. The repetition of pressing buttons reinforces learning, while the card-flip animation creates excitement and anticipation - turning the simple act of learning letters into a game-like experience.
+    </p>
+    <p>
+      Visually, the interface uses a red and yellow color palette - colors that are bright, energetic, and attention-grabbing but not overwhelming. Red connects to the tomato theme, while yellow evokes positivity and warmth, helping to keep the mood cheerful and motivating. The overall look supports focus and engagement without overstimulation.
+    </p>
+    <p>
+      All illustrations and most sound effects were custom-made, ensuring the design feels unique and cohesive. Even small details, like a custom cursor, were added to make the experience feel more playful and tailored to children’s curiosity. I wanted Tomato Tots to feel fun, simple, and self-explanatory, reflecting the principles of learnability and feedback in interaction design. The flipping animation and sound feedback ensure that children know their action was successful, helping them stay engaged and motivated.
+    </p>
+  </div>
+
+  <!-- Engagement with Design Context -->
+  <div id="engagement" class="engagement">
+    <h1>Engagement with Design Context</h1>
+    <p>
+      The project engages directly with the course prompt “All Text Characters”, using the alphabet as the main interaction trigger. The supporting technique - randomisation via Math.random() - adds variation and fun by showing different words each time.
+    </p>
+    <p>
+      The tomato theme and rounded design reflect a child-centred visual language, making the interface friendly and familiar. The use of sound, motion, and image creates a multimodal learning environment that aligns with early-education interaction principles.
+    </p>
+    <p>
+      Peer feedback highlighted strong aesthetics and engagement but noted layout inconsistency on different screens. This led to a redesigned two-column layout (35% buttons / 65% card area), improving functionality and learnability while preserving the playful character of the original.
+    </p>
+  </div>
+
+  <!-- Technical Proficiency -->
+  <div id="technical" class="technical">
+    <h1>Technical Proficiency</h1>
+    <p>
+      The UI is built with HTML, CSS, and JavaScript, supported by custom artwork and audio assets.
+    </p>
+    <ul class="contents">
+      <li>Buttons: Each alphabet button is a PNG image (buttons/) with an event listener for clicks.</li>
+      <li>Card flip: Achieved using CSS 3D transforms and toggling a .flipped class in JS.</li>
+      <li>Randomisation: Math.random() selects one of several images and audio clips per letter.</li>
+      <li>Audio playback: .wav files (audio/) play instantly upon card reveal.</li>
+      <li>Layout: Flexbox divides the screen into a left button grid and a right card zone, ensuring consistent alignment across devices.</li>
+      <li>Custom cursor: Replaced the default pointer with a tomato-themed cursor to enhance immersion and match the concept’s playful tone.</li>
+    </ul>
+    <p>
+      This structure is simple yet robust, demonstrating practical application of web-based interaction techniques and responsive design principles.
+    </p>
+  </div>
+
+  <!-- Depth of Reflection -->
+  <div id="reflection" class="reflection">
+    <h1>Depth of Reflection</h1>
+    <p>
+      Throughout production, my guiding value was playful learning through simplicity - avoiding clutter so that each action feels clear, rewarding, and intuitive.
+    </p>
+    <p>
+      I spent the early weeks designing and illustrating the custom assets, followed by prototyping the interaction logic and refining responsiveness based on testing. After the peer testing session, I realised that a major issue existed - some users could not interact with the website at all. This feedback led me to re-evaluate my priorities and shift focus from purely visual aesthetics to usability and accessibility.
+    </p>
+    <p>
+      I redesigned the entire interface to ensure the website functions consistently across devices and screen sizes. Key improvements included enlarging the buttons (to better suit young users’ motor skills), restructuring the layout into two clear sections - buttons on the left and the card area on the right and ensuring the proportions between these elements are balanced and easy to navigate.
+    </p>
+    <p>
+      The biggest challenge was maintaining aesthetic charm while improving technical stability and responsiveness. I learned to balance artistic style with practical interaction design - something I initially underestimated.
+    </p>
+    <p>
+      I am most proud of how the visual, audio, and interactive feedback now work together harmoniously, creating a joyful cause-and-effect experience for kids. Future iterations could extend to the full alphabet set, preload audio for smoother playback, and add a gentle background track for immersion.
+    </p>
+    <p>
+      This project taught me how thoughtful UI structure and attention to user context can turn a simple idea into an engaging, educational, and meaningful interactive experience.
+    </p>
+  </div>
+
+</body>
+</html>
